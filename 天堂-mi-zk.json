@@ -1,0 +1,272 @@
+{
+  "spider": "",
+  "logo": "https://wx1.sinaimg.cn/mw1024/009XPaLSly1i7mg4igel0g3073073wj1.gif",
+  "lives":
+  [
+    {
+      "name": "直播-咪咕央卫体育",
+      "type": 0,
+      "url": "http://www.52top.com.cn:678/play/咪咕/migu-list.php?tab=live&export_all=1",
+      "ua": "okhttp/3.15",
+      "logo": "https://www.无界.top/tvlogo/{name}.png",
+      "epg": "http://epg.51zmt.top:8000/e.xml"
+    }
+  ],
+  "sites":
+  [
+    {
+      "key": "drpy_js_豆瓣",
+      "name": "✨天堂影院✨ ┃ 🍭极速无水印无广告🍭⚠️勿付费勿贩卖⛔禁止商用",
+      "remark": "【xyq】",
+      "type": 3,
+      "api": "https://pub.tgyes.eu.org/lib/drpy_libs/drpy2.min.js",
+      "ext": "https://pub.tgyes.eu.org/lib/douban.js",
+      "categories":
+      [
+        "热门电影",
+        "热播剧集",
+        "热播综艺",
+        "电影筛选",
+        "电视筛选",
+        "电影榜单",
+        "电视榜单"
+      ]
+    },
+    {
+      "key": "天天",
+      "name": "✨天堂影院 ┃ ①✨",
+      "jar": "https://pub.fcapp.indevs.in/jar/fix260410.jar",
+      "type": 3,
+      "api": "csp_TTian",
+      "playerType": 2,
+      "ext": "7lj763gg0939791h1l3888jig44gi291li",
+      "categories":
+      [
+        "内地",
+        "电影",
+        "韩剧",
+        "综艺",
+        "动漫"
+      ]
+    },
+    {
+      "key": "量子采集",
+      "name": "✨天堂影院 ┃ ②✨ ",
+      "type": 1,
+      "api": "https://cj.lziapi.com/api.php/provide/vod/from/lzm3u8/",
+      "playurl": "json:https://lziplayer.com/?url=",
+      "categories":
+      [
+        "国产剧",
+        "香港剧",
+        "台湾剧",
+        "韩国剧",
+        "欧美剧",
+        "日本剧",
+        "泰国剧",
+        "海外剧",
+        "短剧",
+        "剧情片",
+        "动作片",
+        "爱情片",
+        "科幻片",
+        "恐怖片",
+        "战争片",
+        "记录片",
+        "大陆综艺",
+        "港台综艺",
+        "日韩综艺",
+        "欧美综艺",
+        "国产动漫",
+        "日韩动漫",
+        "欧美动漫",
+        "港台动漫",
+        "海外动漫",
+        "电影解说"
+      ]
+    },
+	    {
+      "key": "旺旺影视",
+      "name": "✨天堂影院 ┃ ③✨",
+      "remark": "【源→VOX】",
+      "type": 3,
+      "api": "csp_XBPQ",
+      "ext": "https://pub.fcapp.indevs.in/box-bak/vox/xb/%E6%97%BA%E6%97%BA%E5%BD%B1%E8%A7%86.json",
+      "jar": "https://pub.fcapp.indevs.in/box-bak/vox/jar/xbpq.jar"
+    },
+	    {
+      "key": "csp_非凡资源",
+      "name": "✨天堂影院 ┃ ④✨",
+      "type": 1,
+      "api": "http://api.ffzyapi.com/api.php/provide/vod/from/ffm3u8",
+      "playurl": "json:http://jx.84jia.com/m3u8ts.php?url=",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "categories":
+      [
+        "动作片",
+        "喜剧片",
+        "科幻片",
+        "恐怖片",
+        "爱情片",
+        "剧情片",
+        "战争片",
+        "记录片",
+        "国产剧",
+        "欧美剧",
+        "香港剧",
+        "韩国剧",
+        "台湾剧",
+        "日本剧",
+        "海外剧",
+        "泰国剧",
+        "国产动漫",
+        "日韩动漫",
+        "欧美动漫",
+        "港台动漫",
+        "海外动漫",
+        "大陆综艺",
+        "港台综艺",
+        "日韩综艺",
+        "欧美综艺"
+      ]
+    },
+    {
+      "key": "电影天堂",
+      "name": "✨天堂影院 ┃ ⑤✨",  #ok ，只有一个m3u8标签
+      "type": 1,
+      "api": "http://caiji.dyttzyapi.com/api.php/provide/vod/from/dyttm3u8/at/m3u8/",
+      "searchable": 1,
+      "quickSearch": 1,
+      "changeable": 1,
+      "filterable": 1,
+      "timeout": 10,
+      "categories":
+      [
+        "国产剧",
+        "香港剧",
+        "韩国剧",
+        "欧美剧",
+        "台湾剧",
+        "日本剧",
+        "海外剧",
+        "泰国剧",
+        "动作片",
+        "喜剧片",
+        "爱情片",
+        "科幻片",
+        "恐怖片",
+        "剧情片",
+        "战争片",
+        "记录片",
+        "大陆综艺",
+        "港台综艺",
+        "日韩综艺",
+        "欧美综艺",
+        "国产动漫",
+        "日韩动漫",
+        "欧美动漫",
+        "港台动漫",
+        #    "伦理片",
+        "短剧",
+        "动画片"
+      ]
+    },
+    
+    {"key": "无水印采集",
+    "name": "✨天堂影院 ┃ ⑥✨",
+    "type": 1,
+    "api": "https://api.wsyzy.net/api.php/provide/vod/?ac=list",
+ //   "playurl": "json:https://wsyzy.vip/m3u8/?url=",
+    "timeout": 30,
+    "header": {
+    "User-Agent": "Mozilla/5.0 (Linux; Android 10; SM-G960U) AppleWebKit/537.0"
+    },
+    "categories":
+    [
+    "国产剧",
+    "欧美剧",
+    "香港剧",
+    "韩剧",
+    "台湾剧",
+    "日剧",
+    "海外剧",
+    "泰剧",
+    "动作片",
+    "喜剧片",
+    "科幻片",
+    "恐怖片",
+    "爱情片",
+    "剧情片",
+    "惊悚片",
+    "战争片",
+    "动漫电影",
+    "国产动漫",
+    "日韩动漫",
+    "欧美动漫",
+    "年代穿越",
+    "反转爽剧",
+    "古装仙侠",
+    "现代都市",
+    "女频恋爱",
+    "漫剧",
+    #        "擦边短剧",
+    "有声动漫",
+    "大陆综艺",
+    "日韩综艺",
+    "港台综艺",
+    "欧美综艺"
+    ],
+    "remark": "【多多▪备份】 速度:0.27s"
+    },
+	/*
+    {
+    "key": "极速资源",
+    "name": "🚀极速 ┃ 影视",
+    "type": 1,
+    "api": "https://jszyapi.com/api.php/provide/vod/from/jsm3u8/at/json",
+    "playurl": "https://jisjiexi.com/play/?url=",
+    "categories":
+    [
+    "内地剧",
+    "香港剧",
+    "台湾剧",
+    "韩国剧",
+    "欧美剧",
+    "日本剧",
+    "泰国剧",
+    "海外剧",
+    "短剧",
+    "剧情片",
+    "动作片",
+    "爱情片",
+    "科幻片",
+    "恐怖片",
+    "战争片",
+    "记录片",
+    "大陆综艺",
+    "港台综艺",
+    "日韩综艺",
+    "欧美综艺",
+    "国产动漫",
+    "日韩动漫",
+    "欧美动漫",
+    "港台动漫",
+    "海外动漫",
+    "电影解说",
+    "体育"
+    ]
+    },
+    */
+    {
+      "key": "cc2",
+      "name": "⚠️勿信视频中广告⚠️",
+      "type": 3,
+      "api": "csp_XPath",
+      "searchable": 0,
+      "quickSearch": 0,
+      "changeable": 0
+    }
+  ]
+}
